@@ -1,8 +1,9 @@
+import Banner from './banner.png'
 import Cabecalho from "../Componentes/Cabecalho";
 import Footer from "../Componentes/Footer";
 import Galeria from "../Componentes/Galery";
 import Menu from "../Componentes/Menu";
-import Banner from './banner.png'
+import Populares from "../Componentes/Populares";
 import styles from './PaginaInicial.module.scss'
 
 export default function PaginaInicial() {
@@ -17,10 +18,12 @@ export default function PaginaInicial() {
             <img src={Banner} alt="A imagem da terra vista do espaço" />
           </div>
         </section>
+        <div>
+          <Galeria/>
+          <Populares/>
+        </div>
       </main>
-      <div>
-        <Galeria/>
-      </div>
+    
       <Footer/>
     
     </>
