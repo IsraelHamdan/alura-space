@@ -1,7 +1,7 @@
 import React from 'react'
-import twitter from'../../assets/rodape/twitter.svg'
-import facebook from '../../assets/rodape/facebook.svg'
-import instagam from '../../assets/rodape/instagram.svg'
+import twitter from'assets/rodape/twitter.svg'
+import facebook from 'assets/rodape/facebook.svg'
+import instagam from 'assets/rodape/instagram.svg'
 import styles from './Rodape.module.scss'
 export default function Footer() {
   return (

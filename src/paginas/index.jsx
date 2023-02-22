@@ -1,10 +1,11 @@
 import Banner from './banner.png'
-import Cabecalho from "../Componentes/Cabecalho";
-import Footer from "../Componentes/Footer";
-import Galeria from "../Componentes/Galery";
-import Menu from "../Componentes/Menu";
-import Populares from "../Componentes/Populares";
 import styles from './PaginaInicial.module.scss'
+//componentes
+import Cabecalho from "Componentes/Cabecalho";
+import Footer from "Componentes/Footer";
+import Galeria from "Componentes/Galery";
+import Menu from "Componentes/Menu";
+import Populares from "Componentes/Populares";
 
 export default function PaginaInicial() {
    return (
@@ -19,7 +20,7 @@ export default function PaginaInicial() {
           </div>
         </section>
         <div>
-          <Galeria/>
+          <Galeria className={styles.galeria} />
           <Populares/>
         </div>
       </main>
