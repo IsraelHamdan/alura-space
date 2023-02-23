@@ -1,5 +1,5 @@
 @import "../../styles/variaveis";
-
+ 
 .tags {
   width: 65vw;
   display: flex;
@@ -8,19 +8,19 @@
   color: $cor-do-texto;
   font-family: $fonte-normal;
   font-size: 16px;
-
-  &__p {
+ 
+  p {
     font-size: 1.25rem;
   }
-
+ 
   &__lista {
     list-style: none;
     width: 380px;
     padding: 0;
     display: flex;
     justify-content: space-between;
-
-    &__li {
+ 
+    li {
       background-color: $tag-color;
       padding: 6px 10px;
       border-radius: 8px;

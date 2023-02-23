@@ -19,8 +19,8 @@ export default function PaginaInicial() {
             <img src={Banner} alt="A imagem da terra vista do espaço" />
           </div>
         </section>
-        <div>
-          <Galeria className={styles.galeria} />
+        <div className={styles.galeria}>
+          <Galeria  />
           <Populares/>
         </div>
       </main>

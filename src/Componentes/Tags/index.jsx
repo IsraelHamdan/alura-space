@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Tags.module.scss'
-export default function Tags({tags}) {
+export default function Tags({tags, filtraFotos}) {
   return (
     <div className={styles.tags}>
       <p className={styles.tags__p}>Filtre por tags</p>
@@ -8,7 +8,10 @@ export default function Tags({tags}) {
          {
             tags.map((tag)=>{
               return (
-                <li  key={tag}>{tag}</li>
+                <li 
+                  className={styles.tags__li} key={tag} onClick={filtraFotos(tag)}>{tag}
+                </li> 
+  
               )
             })
          }
