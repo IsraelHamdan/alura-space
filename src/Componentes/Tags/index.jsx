@@ -9,7 +9,7 @@ export default function Tags({tags, filtraFotos}) {
             tags.map((tag)=>{
               return (
                 <li 
-                  className={styles.tags__li} key={tag} onClick={filtraFotos(tag)}>{tag}
+                  key={tag} onClick={() => filtraFotos(tag)}>{tag}
                 </li> 
   
               )
